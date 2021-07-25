@@ -1,0 +1,52 @@
+[31-Aug-2020 22:07:22 UTC] PHP Notice:  Undefined index: id_club in /home/ikutsida/public_html/arclub/admin/addclub.php on line 5
+[11-Sep-2020 12:34:44 UTC] PHP Notice:  Undefined index: id_club in /home/ikutsida/public_html/arclub/admin/addclub.php on line 5
+[11-Sep-2020 12:49:42 UTC] PHP Notice:  Undefined index: id_club in /home/ikutsida/public_html/arclub/admin/addclub.php on line 5
+[11-Sep-2020 13:01:41 UTC] PHP Notice:  Undefined index: id_club in /home/ikutsida/public_html/arclub/admin/addclub.php on line 5
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[06-Oct-2020 14:05:38 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 179
+[06-Oct-2020 14:05:38 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[06-Oct-2020 14:05:38 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 259
+[06-Oct-2020 14:05:55 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/pelatih.php on line 3
+[06-Oct-2020 14:05:55 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/pelatih.php on line 3
+[06-Oct-2020 14:05:55 UTC] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ikutsida/public_html/Desa Dayeuh/admin/pelatih.php on line 3
+[06-Oct-2020 14:05:55 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/pelatih.php on line 202
+[06-Oct-2020 14:05:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/pelatih.php on line 202
+[06-Oct-2020 14:05:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/pelatih.php on line 209
+[06-Oct-2020 14:05:56 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/komentar.php on line 3
+[06-Oct-2020 14:05:56 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/komentar.php on line 3
+[06-Oct-2020 14:05:56 UTC] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ikutsida/public_html/Desa Dayeuh/admin/komentar.php on line 3
+[06-Oct-2020 14:05:56 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/komentar.php on line 154
+[06-Oct-2020 14:05:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/komentar.php on line 154
+[06-Oct-2020 14:05:56 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/komentar.php on line 161
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 09:32:51 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 179
+[09-Oct-2020 09:32:51 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[09-Oct-2020 09:32:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 259
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 09:44:19 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 179
+[09-Oct-2020 09:44:19 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[09-Oct-2020 09:44:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 259
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 3
+[09-Oct-2020 10:01:32 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 178
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 179
+[09-Oct-2020 10:01:32 UTC] PHP Notice:  Undefined variable: con in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 252
+[09-Oct-2020 10:01:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ikutsida/public_html/Desa Dayeuh/admin/club.php on line 259
