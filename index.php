@@ -127,7 +127,7 @@ include('sistem/koneksi.php');
 
           <div class="site-heading">
 
-            <h2>Pengaduan Masyarakat</h2>
+            <h2>Pengaduan Masyarakat Desa</h2>
 
             <span class="subheading">Akses, Pelayanan dan lainnya</span>
 
