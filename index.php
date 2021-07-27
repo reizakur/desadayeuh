@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<?php 
-include ('sistem/koneksi.php');
+<?php
+include('sistem/koneksi.php');
 ?>
+
 <head>
 
 
@@ -69,45 +70,45 @@ include ('sistem/koneksi.php');
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
 
-<ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">
 
-  <li class="nav-item">
+          <li class="nav-item">
 
-    <a class="nav-link" href="index.php">Halaman Utama</a>
+            <a class="nav-link" href="index.php">Halaman Utama</a>
 
-  </li>
-  <?php 
+          </li>
+          <?php
 
-$sql=mysqli_query($con,"SELECT * FROM jenis");
-if(isset($_POST['qcari'])){
-$qcari = $_POST['qcari'];
-$sql=mysqli_query($con,"SELECT * FROM jenis where id_jenis like 
+          $sql = mysqli_query($con, "SELECT * FROM jenis");
+          if (isset($_POST['qcari'])) {
+            $qcari = $_POST['qcari'];
+            $sql = mysqli_query($con, "SELECT * FROM jenis where id_jenis like 
 '%$qcari%' or  like '%$qcari%'");
-}
-$nomor = 0;
-while ($row= mysqli_fetch_array($sql)){
-$nomor++;
+          }
+          $nomor = 0;
+          while ($row = mysqli_fetch_array($sql)) {
+            $nomor++;
 
-?> 
-  <li class="nav-item">
+          ?>
+            <li class="nav-item">
 
-<a class="nav-link" href="jenis.php?id_jenis=<?php echo $row ['id_jenis']?>"><?php echo $row ['nama_jenis']?></a>
+              <a class="nav-link" href="jenis.php?id_jenis=<?php echo $row['id_jenis'] ?>"><?php echo $row['nama_jenis'] ?></a>
 
-</li>
-<?php } ?>
- <li class="nav-item">
+            </li>
+          <?php } ?>
+          <li class="nav-item">
 
-    <a class="nav-link" href="login_v14/index.php">Login</a>
+            <a class="nav-link" href="login_v14/index.php">Login</a>
 
-  </li>
+          </li>
 
-</ul>
+        </ul>
 
-</div>
+      </div>
 
-</div>
+    </div>
 
-</nav>
+  </nav>
 
 
 
@@ -126,7 +127,7 @@ $nomor++;
 
           <div class="site-heading">
 
-            <h2>Website Pengaduan</h2>
+            <h2>Pengaduan Masyarakat</h2>
 
             <span class="subheading">Akses, Pelayanan dan lainnya</span>
 
@@ -150,57 +151,57 @@ $nomor++;
 
       <div class="col-lg-8 col-md-10 mx-auto">
 
-     <?php 
+        <?php
 
 
 
-    $sql=mysqli_query($con,"SELECT * FROM berita");
+        $sql = mysqli_query($con, "SELECT * FROM berita");
 
-    if(isset($_POST['qcari'])){
+        if (isset($_POST['qcari'])) {
 
-      $qcari = $_POST['qcari'];
+          $qcari = $_POST['qcari'];
 
-    $sql=mysqli_query($con,"SELECT * FROM berita where id_berita like 
+          $sql = mysqli_query($con, "SELECT * FROM berita where id_berita like 
 
       '%$qcari%' or  like '%$qcari%'");
+        }
 
-    }
+        $nomor = 0;
 
-    $nomor = 0;
+        while ($row = mysqli_fetch_array($sql)) {
 
-    while ($row= mysqli_fetch_array($sql)){
+          $nomor++;
 
-      $nomor++;
+        ?>
 
-    ?>
+          <div class="post-preview">
 
-        <div class="post-preview">
+            <a href="detail.php?id_berita=<?php echo $row['id_berita'] ?>">
+              <img src="img/<?php echo $row['gambar'] ?>"></img>
+              <h2 class="post-title">
 
-          <a href="detail.php?id_berita=<?php echo $row ['id_berita'] ?>">
-<img src="img/<?php echo $row ['gambar']?>"></img>
-            <h2 class="post-title">
+                <?php echo $row['judul'] ?>
+              </h2>
 
-            <?php echo $row ['judul']?>
-            </h2>
-
-            <h3 class="post-subtitle">
+              <h3 class="post-subtitle">
 
 
-            </h3>
+              </h3>
 
-          </a>
+            </a>
 
-          <p class="post-meta">Posted by
+            <p class="post-meta">Posted by
 
-            <a href="#">Desa Dayeuh News</a>
+              <a href="#">Desa Dayeuh News</a>
 
-            on <?php echo $row ['tanggal_post']?></p>
+              on <?php echo $row['tanggal_post'] ?>
+            </p>
 
-        </div>
+          </div>
 
-        <hr>
-<?php }  ?> 
-       
+          <hr>
+        <?php }  ?>
+
 
         <div class="clearfix">
 
@@ -313,4 +314,3 @@ $nomor++;
 
 
 </html>
-
