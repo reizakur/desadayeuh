@@ -74,6 +74,12 @@ include('sistem/koneksi.php');
 
           <li class="nav-item">
 
+            <a class="nav-link" href="pengaduan.php">Pengaduan</a>
+
+          </li>
+
+          <li class="nav-item">
+
             <a class="nav-link" href="index.php">Halaman Utama</a>
 
           </li>

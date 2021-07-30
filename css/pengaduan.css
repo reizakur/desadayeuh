@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-image: url(https://pandpwoodworks.com/files/2020/04/hotel-wallpaper.png);
+}
+
+.Form {
+    width: fit-content;
+    height: auto;
+    margin: 35px 265px 35px 265px;
+    text-align: center;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+
+.Form form {
+    padding: 45px 115px 45px 115px;
+}
+
+.Form li {
+    display: block;
+}
+
+.Form li .Nama {
+    padding: 5px 35px 5px 35px;
+    margin: 10px 0px 10px;
+    text-align: left;
+}
+
+.Form li .Judul {
+    padding: 5px 35px 5px 35px;
+    text-align: left;
+}
+
+.Form li .Deskripsi {
+    text-align: center;
+}
+
+.Form #inputimg {
+    margin: 25px 0px 25px 0px;
+}
+
+@media screen and (max-width: 1240px) {
+    .Form {
+        margin: auto;
+    }
+}
